@@ -1,5 +1,6 @@
 # PCCM_2021_ImputationModel
-Code for Prediction model performance with different imputation strategies – a simulation study using a North American intensive care unit registry
+Title: Prediction model performance with different imputation strategies – a simulation study using a North American intensive care unit registry
+Authors: Jonathan Steif, Rollin Brant, Rama Sreepada, Nicholas West, Srinivas Murthy, Matthias Görges
 
 1. helper_functions.R, add_PALS_criteria.R, add_qPELOD2_criteria.R, add_sirs_criteria.R: these files are used to pre-process the initial dataset to create new features. These files are called from other files, and need not be run explicitly by the user.
 2. Leukos_Mentation_Coefficients.R : this file is used to build pSIRS and qSOFA models using 150-run, and compute the coefficients for missing as normal, missing discarded, and MICE imputation strategies.
